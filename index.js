@@ -17,7 +17,7 @@ const client = new MongoClient(uri, {
 });
 client.connect((err) => {
   const collection = client.db("test").collection("devices");
-  console.log("phonelink server inventory");
+  console.log("phonelink server inventory working");
   // perform actions on the collection object
   client.close();
 });
